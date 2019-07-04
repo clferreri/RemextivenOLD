@@ -1,0 +1,59 @@
+/*--------------------------------------------*/
+/*------------ ESTILOS DE FOOTER -------------*/
+/*--------------------------------------------*/
+
+
+/* Cabeza del footer */
+.headerFooter{
+    background-color: #262630;
+    text-align: center;
+    width: 100%;
+    float: left;
+}
+
+.headerFooter ul{
+    list-style: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.headerFooter ul li{
+    margin: 1.5%;
+}
+
+.headerFooter ul li a {
+    text-decoration: none;
+    color: #cfd1d4;
+}
+
+.headerFooter ul li a:hover{
+    color: #ffffff;
+}
+/* Fin Cabeza del footer */
+
+.bodyFooter{
+    background-color: #1b1b29;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.socialIcons{
+    border: 1px solid red;
+    margin-top: 20px;
+}
+
+.socialIcons a{
+    margin: 2%;
+}
+
+.footerFooter{
+    background-color: #262630;
+}
+
+
+
+
+/*---------------------------------------------*/
