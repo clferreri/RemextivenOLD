@@ -1,6 +1,8 @@
 <?php
 
-Route::get('/', 'PagesController@inicio');
+Route::get('/', function(){
+    return view('welcome');
+});
 
 
 Route::get('/prueba/{nombre}', function($nombre){
