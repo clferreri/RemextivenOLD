@@ -5,6 +5,11 @@
 /* 
 */
 
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
 nav{
     font-family: 'Montserrat', sans-serif !important;
     position: fixed !important;
@@ -16,9 +21,9 @@ nav img {
 }
 
 
-
-
-
+.modal-content{
+    font-family: 'Montserrat', sans-serif !important;
+}
 
 
 /*============================================*/
@@ -85,14 +90,19 @@ nav img {
     background-color: rgb(0,0,0); 
     background-color: rgba(0,0,0,0.4); 
     padding-top: 60px;
+    overflow: hidden;
   }
   
   /* Modal Content/Box */
   .modal-content {
     background-color: #fefefe;
-    margin: 5% auto 15% auto; 
+    margin: 2% auto 15% auto; 
     border: 1px solid #888;
     width: 40%;
+    /*SOMBREADO*/
+    -webkit-box-shadow: 2px 2px 5px rgb(82, 82, 82);
+    -moz-box-shadow: 2px 2px 5px rgb(82, 82, 82);
+    filter: shadow(color=rgb(82, 82, 82), direction=135, strength=2);
   }
   
   /* The Close Button (x) */
@@ -138,11 +148,6 @@ nav img {
     }
   }
 
-  .modal-content {
-    -webkit-box-shadow: 2px 2px 5px rgb(82, 82, 82);
-    -moz-box-shadow: 2px 2px 5px rgb(82, 82, 82);
-    filter: shadow(color=rgb(82, 82, 82), direction=135, strength=2);
-  }
 
   
 
@@ -172,7 +177,6 @@ footer{
     bottom:0;
     font-size: 14px;
     font-family: 'Montserrat', sans-serif !important;
-
 }
 
 
@@ -276,7 +280,9 @@ footer{
 
 .contactRemextiven li{
     margin: 2%;
-    text-align: center;}
+    text-align: center;
+    font-size: 18px;
+}
 
 
 .lineWithIcon{
@@ -380,4 +386,25 @@ footer{
 }
 
 
+/*-------------------------------------------------*/
+/*================================================*/
+/*------------ DIVS PARA ERRORES ------------*/
+/*================================================*/
+
+.error{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 8 auto;
+    margin-top: 4px;
+    color: #dc3545
+
+}
+
+.error img{
+    width: 20px;
+    height: 20px;
+    margin-top: 1px;
+    margin-right: 3px;
+}
 
