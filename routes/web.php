@@ -1,7 +1,7 @@
 <?php
 
 Route::get('/', function(){
-    return view('welcome');
+    return view('nosotros');
 });
 
 
@@ -14,8 +14,9 @@ Route::get('/prueba/{nombre}', function($nombre){
     return  "hola";
 })->where('nombre', '[A-Za-z]+');
 
-
-Route::get('/nosotros/{nombre?}', 'PagesController@nosotros')->name('nosotros');
+Route::get('nosotros', function(){
+    return view('nosotros');
+});
 
 
 

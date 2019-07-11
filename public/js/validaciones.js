@@ -6,7 +6,6 @@ $(document).ready(function(){
     // Si la casilla mail se deselecciona validamos tod
     $("#txtMail").blur(function(){
       var mail = $("#txtMail").val();
-      var error ="";
       if(mail.length == 0){
         $("#pValidationMail").text("Debe ingresar un mail");
         $("#validationMail").slideDown( 500 );   
@@ -24,6 +23,19 @@ $(document).ready(function(){
      
 
 
+    });
+
+
+    $("#txtPass").blur(function(){
+      var pass = $("#txtPass").val();
+      
+      if(pass.length == 0){
+        $("#pValidationPass").text("Debe ingresar una contraseña");
+        $("#validationPass").slideDown( 500 );   
+      }
+      else{
+          $("#validationPass").slideUp();        
+      }
     });
   });
 

@@ -60,6 +60,10 @@ nav img {
     margin-bottom: 50px;
 }
 
+.form-group{
+    height: 56px;
+}
+
 .contenedor-cuerpo input{
     width: 100%;
 }
@@ -99,6 +103,7 @@ nav img {
     margin: 2% auto 15% auto; 
     border: 1px solid #888;
     width: 40%;
+    min-width: 360px;
     /*SOMBREADO*/
     -webkit-box-shadow: 2px 2px 5px rgb(82, 82, 82);
     -moz-box-shadow: 2px 2px 5px rgb(82, 82, 82);
@@ -355,9 +360,7 @@ footer{
      transition-duration: 0.4s;
 }
 
-.btn-blue{
 
-}
 
 
 /*-------------------------------------------------*/

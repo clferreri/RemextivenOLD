@@ -1,0 +1,93 @@
+.bodyPageManta {
+    position: fixed;
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto; 
+    background-image: linear-gradient(to bottom right, #00bee3, #00fdb2);
+    padding-top: 60px;
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif
+  }
+
+h2{
+      padding-top: 50px;
+  }
+
+  .cajaFija{
+    background-color: #fefefe;
+    margin: 2% auto 15% auto; 
+    border-radius: 6px;
+    width: 40%;
+    height: 70%;
+    min-height: 560px;
+    min-width: 350px;
+    /*SOMBREADO*/
+    -webkit-box-shadow: 2px 2px 5px rgb(82, 82, 82);
+    -moz-box-shadow: 2px 2px 5px rgb(82, 82, 82);
+    filter: shadow(color=rgb(82, 82, 82), direction=135, strength=2);
+  }
+
+
+  .contenidoCajaFija{
+    width:70%;
+    height: px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    
+  }
+
+  .form-group{
+    height: 56px;
+}
+
+.contenidoCajaFija input{
+    width: 100%;
+}
+
+.contenidoCajaFija button{
+    width: 100%;
+}
+
+.inputIconoInterno {
+    padding-left: 2.375rem;
+}
+
+.iconoInterno{
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.2rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.btnCircle {
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition-property: background-color, color, border;
+    transition-duration: 0.4s;
+    margin-bottom: 15px;
+}
+
+
+.lineaCortante{
+    width: 90%;
+}
+
+
+#pTerminos{
+    font-size: 13px;
+}
